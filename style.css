@@ -1,0 +1,88 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-bottom.svg),url(images/bg-pattern-top.svg);
+    background-position: 130% -142% ,-39% 200%;
+    
+    
+    background-repeat: no-repeat,no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .container{
+     background-color: white;
+     height: 360px;
+     width: 320px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     border-radius: 15px;
+     transition: .5s;
+ }
+ .container:hover{
+     transform: translateY(-10px);
+ }
+ #background{
+     background-image: url(images/bg-pattern-card.svg);
+     height: 140px ;
+     width: 320px;
+     border-radius: 15px 15px 0 0;
+
+ }
+ .vector{
+     position: relative;
+     top: 60%;
+     border:solid 3px white;
+     border-radius: 50%;
+
+ }
+ #info{
+     margin-top: 60px;
+     border-bottom: 0.5px solid hsl(0, 0%, 59%) ; 
+     padding-bottom: 20px;
+ }
+ .name{
+     font-size: 18px;
+
+ }
+ .age{
+     font-size: 18px;
+     color:hsl(0, 0%, 59%)
+ }
+ #loc{
+     margin-top: 5px;
+ }
+ .location{
+    color:hsl(0, 0%, 59%);
+     font-size: 13px;
+ }
+ #footer{
+     display: flex;
+     position: relative;
+     justify-content: space-evenly;
+     margin-top: 20px;
+ }
+.followers{
+    font-size: 10px;
+    color: hsl(0, 0%, 59%) ;
+}
+.likes{
+    font-size: 10px;
+    color: hsl(0, 0%, 59%) ;
+}
+.photos{
+    font-size: 10px;
+    color: hsl(0, 0%, 59%) ;
+}
+ 
